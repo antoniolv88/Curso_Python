@@ -1,1 +1,2 @@
-Primer proyecto
+#Primer proyecto
+print ("Hola mundo")
