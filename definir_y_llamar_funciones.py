@@ -9,10 +9,18 @@ radio = 5
 area_del_circulo = calcular_area_circulo(radio)
 print("El área del círculo con radio", radio, "es:", area_del_circulo)
 
-# Definición de una función para saludar a una persona
-def saludar(nombre):
-    print("¡Hola,", nombre + "! ¿Cómo estás?")
+# Definición de una función para saludar a una persona que toma dos parámetros
 
-# Llamada a la función
-nombre = "Juan"
-saludar(nombre)
+def saludar(nombre, edad):
+    print("¡Hola,", nombre + "! Tienes", edad, "años.")
+
+# Llamada a la función con argumentos específicos
+saludar("Juan", 30)
+
+# Llamada a la función con otros argumentos
+saludar("María", 25)
+
+# Llamada a la función con variables como argumentos
+nombre = "Pedro"
+edad = 35
+saludar(nombre, edad)
