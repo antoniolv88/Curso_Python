@@ -1,0 +1,16 @@
+# Entrada de datos
+edad = int(input("Por favor, ingresa tu edad: "))
+
+# Condicionales
+if edad < 18:
+    print("Eres menor de edad.")
+elif edad >= 18 and edad < 65:
+    print("Eres mayor de edad y estás en edad laboral.")
+else:
+    print("Eres mayor de edad y estás en edad de jubilación.")
+
+# Verificación adicional
+if edad % 2 == 0:
+    print("Tu edad es un número par.")
+else:
+    print("Tu edad es un número impar.")
